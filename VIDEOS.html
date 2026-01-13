@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - E-Resume</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('BG.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .content-box {
+            width: 85%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.85);
+            margin: 120px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+
+        .video-box {
+            margin-top: 20px;
+            background: #eef2f7;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        video {
+            width: 100%;
+            height: 350px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="file:///C:/Users/User/Desktop/biodata%20website/HOME.html">HOME</a>
+    <a href="file:///C:/Users/User/Desktop/biodata%20website/BIODATA.html">BIODATA</a>
+    <a href="file:///C:/Users/User/Desktop/biodata%20website/QUALIFICATION.html">QUALIFICATION</a>
+    <a href="file:///C:/Users/User/Desktop/biodata%20website/GALLERY.html">GALLERY</a>
+</div>
+
+<div class="content-box">
+    <h2>My Videos</h2>
+    <p>Some footage of me doing my work</p>
+
+    <div class="video-box">
+        <h3>Hosting an program called "Learning is fun" at SMK Sultan Ibrahim</h3>
+        <video controls>
+            <source src="video.mov" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-box">
+        <h3>Me and my colleague visiting National of Archives Malaysia for a research</h3>
+        <video controls>
+            <source src="video2.mov" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+</body>
+</html>
